@@ -311,16 +311,6 @@ windows = {
     );
   };
   10 = { name = "hilight"; sticky = "yes"; };
-  11 = {
-    items = (
-      { 
-        type = "QUERY";
-        chat_type = "IRC";
-        name = "w1d0";
-        tag = "ircnet";
-      }
-    );
-  };
 };
 mainwindows = {
   9 = { first_line = "6"; lines = "50"; };
