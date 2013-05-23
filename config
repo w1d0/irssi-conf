@@ -224,15 +224,15 @@ settings = {
   "fe-text" = { actlist_sort = "refnum"; };
   "fe-common/core" = { theme = "default"; };
   "perl/core/scripts" = {
-    awl_display_key = "$Q%K|%n$H$C$S";
+    awl_display_key = "$N%n $H$C$S";
     awl_block = "-15";
     nicklist_automode = "SCREEN";
+    awl_display_key_active = "$N%n$H%G$C%n$S";
+    awl_display_nokey = "[$N]$H$C$S";
   };
 };
 ignores = ( { level = "JOINS PARTS QUITS"; } );
-keyboard = (
-  { key = "meta-x"; id = "command"; data = "clear 10"; }
-);
+keyboard = ( { key = "meta-x"; id = "command"; data = "clear 10"; } );
 windows = {
   1 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
   2 = {
