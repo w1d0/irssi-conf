@@ -227,7 +227,7 @@ settings = {
     awl_display_key = "$N%n $H$C$S";
     awl_block = "-15";
     nicklist_automode = "SCREEN";
-    awl_display_key_active = "$N%n$H%G$C%n$S";
+    awl_display_key_active = "$N%n $H%G$C%n$S";
     awl_display_nokey = "[$N]$H$C$S";
   };
 };
