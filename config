@@ -122,7 +122,7 @@ statusbar = {
     prompt = "{prompt $[.15]itemname}";
     prompt_empty = "{prompt $winname}";
     topic = " $topic";
-    topic_empty = " Irssi v$J - http://www.irssi.org";
+    topic_empty = " ";
 
     # all of these treated specially, they're only displayed when needed
     lag = "{sb Lag: $0-}";
@@ -137,7 +137,7 @@ statusbar = {
     # the "default statusbar" to be displayed at the bottom of the window.
     # contains all the normal items.
     window = {
-      disabled = "no";
+      disabled = "yes";
 
       # window, root
       type = "window";
@@ -153,7 +153,6 @@ statusbar = {
         barstart = { priority = "100"; };
         time = { };
         user = { };
-        window = { };
         window_empty = { };
         lag = { priority = "-1"; };
         more = { priority = "-1"; alignment = "right"; };
