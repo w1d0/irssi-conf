@@ -216,9 +216,9 @@ statusbar = {
 };
 settings = {
   core = { 
-    real_name = "mbitard";
-    user_name = "mbitard";
-    nick = "mbitard";
+    real_name = "w1d0";
+    user_name = "w1d0";
+    nick = "w1d0";
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "fe-common/core" = { theme = "default"; };
@@ -317,5 +317,5 @@ mainwindows = {
 };
 hilights = (
   { text = "tours"; nick = "yes"; word = "yes"; },
-  { text = "mbitard"; nick = "yes"; word = "yes"; }
+  { text = "w1d0"; nick = "yes"; word = "yes"; }
 );
