@@ -229,6 +229,10 @@ settings = {
     awl_display_key_active = "$N%n $H%G$C%n$S";
     awl_display_nokey = "[$N]$H$C$S";
   };
+  "irc/dcc" = {
+    dcc_download_path = "~/.irssi/downloads";
+    dcc_autoget = "yes";
+  };
 };
 ignores = ( { level = "JOINS PARTS QUITS"; } );
 keyboard = ( { key = "meta-x"; id = "command"; data = "clear 10"; } );
@@ -319,3 +323,17 @@ hilights = (
   { text = "tours"; nick = "yes"; word = "yes"; },
   { text = "w1d0"; nick = "yes"; word = "yes"; }
 );
+logs = {
+  "~/.irssi/irc.log.contactless" = {
+    level = "ALL";
+    items = ( { type = "window"; name = "2"; } );
+  };
+  "~/.irssi/irc.log.nerfroom" = {
+    level = "ALL";
+    items = ( { type = "window"; name = "6"; } );
+  };
+  "~/.irssi/irc.log.codetroopers" = {
+    level = "ALL";
+    items = ( { type = "window"; name = "9"; } );
+  };
+};
