@@ -41,9 +41,7 @@ channels = (
   { name = "#contactless"; chatnet = "mbs"; autojoin = "yes"; },
   { name = "#cvf"; chatnet = "mbs"; autojoin = "yes"; },
   { name = "#cvf.tours"; chatnet = "mbs"; autojoin = "yes"; },
-  { name = "#git"; chatnet = "mbs"; autojoin = "yes"; },
   { name = "#nerfroom"; chatnet = "mbs"; autojoin = "yes"; },
-  { name = "#sm"; chatnet = "mbs"; autojoin = "yes"; },
   { name = "#swat-tours"; chatnet = "mbs"; autojoin = "yes"; }
 );
 
@@ -215,13 +213,9 @@ statusbar = {
   };
 };
 settings = {
-  core = { 
-    real_name = "w1d0";
-    user_name = "w1d0";
-    nick = "w1d0";
-  };
+  core = { real_name = "w1d0"; user_name = "w1d0"; nick = "w1d0"; };
   "fe-text" = { actlist_sort = "refnum"; };
-  "fe-common/core" = { theme = "default"; };
+  "fe-common/core" = { theme = "ectobar"; };
   "perl/core/scripts" = {
     awl_display_key = "$N%n $H$C$S";
     awl_block = "-15";
@@ -270,10 +264,10 @@ windows = {
   };
   5 = {
     items = (
-      { 
+      {
         type = "CHANNEL";
         chat_type = "IRC";
-        name = "#git";
+        name = "#nerfroom";
         tag = "mbs";
       }
     );
@@ -283,27 +277,12 @@ windows = {
       {
         type = "CHANNEL";
         chat_type = "IRC";
-        name = "#nerfroom";
-        tag = "mbs";
-      }
-    );
-  };
-  7 = {
-    items = (
-      { type = "CHANNEL"; chat_type = "IRC"; name = "#sm"; tag = "mbs"; }
-    );
-  };
-  8 = {
-    items = (
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
         name = "#swat-tours";
         tag = "mbs";
       }
     );
   };
-  9 = {
+  7 = {
     items = (
       {
         type = "CHANNEL";
@@ -316,7 +295,7 @@ windows = {
   10 = { name = "hilight"; sticky = "yes"; };
 };
 mainwindows = {
-  9 = { first_line = "6"; lines = "50"; };
+  7 = { first_line = "6"; lines = "50"; };
   10 = { first_line = "1"; lines = "5"; };
 };
 hilights = (
