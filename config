@@ -221,7 +221,7 @@ settings = {
     nick = "mbitard";
   };
   "fe-text" = { actlist_sort = "refnum"; };
-  "fe-common/core" = { theme = "default"; };
+  "fe-common/core" = { theme = "ectobarcustom"; };
   "perl/core/scripts" = {
     awl_display_key = "$N%n $H$C$S";
     awl_block = "-15";
